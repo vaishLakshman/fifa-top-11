@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+
+.container {
+  margin: 0;
+  float: left;
+  width: 100vw;
+  background: url("../../../public//images//main_bg.jpg");
+  min-height: 100vh;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.infoContainer {
+  /* background-color: aqua; */
+  height: fit-content;
+  width: fit-content;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4em;
+  color: white;
+  padding: 3%;
+  margin: 10% auto 0 auto;
+}
+
+.infoContainer button {
+  cursor: pointer;
+  padding: 2% 3%;
+  border-style: none;
+  border-radius: 10px;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.5em;
+  color: rgb(46, 101, 136);
+  background-color: rgba(255, 255, 255, 0.911);
+}
+
+.infoContainer button:hover {
+  transform: scale(1.06);
+  color: rgb(46, 101, 136);
+  background-color: rgba(255, 255, 255, 0.642);
+}

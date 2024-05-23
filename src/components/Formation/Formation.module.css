@@ -1,0 +1,125 @@
+.container {
+  background: url("../../../public/images/court_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.data img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  filter: drop-shadow(5px 5px 10px rgba(166, 216, 214, 0.623));
+}
+
+.player1 {
+  z-index: 100;
+  height: fit-content;
+  width: fit-content;
+  margin: 4% auto 0 auto;
+}
+
+.secondLine {
+  display: flex;
+}
+
+.player20 {
+  z-index: 100;
+  height: fit-content;
+  width: fit-content;
+  margin: -4% 0 0 40%;
+}
+
+.player21 {
+  z-index: 100;
+  height: fit-content;
+  width: fit-content;
+  margin: -4% 0 0 10%;
+}
+
+.thirdLine {
+  display: flex;
+  justify-content: center;
+}
+
+.player30 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: 1.7% 0 0 -20%;
+}
+
+.player31 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: -0.7% 0 0 0;
+}
+
+.player32 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: 1.7% 0 0 20%;
+}
+
+.defenseLine {
+  display: flex;
+  justify-content: center;
+  margin: 12% 0 0 0;
+}
+
+.player40 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: -1.5% 0 0 -31%;
+}
+
+.player41 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: 1.5% 0 0 -13%;
+}
+
+.player42 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: 1.5% 0 0 13%;
+}
+
+.player43 {
+  z-index: 100;
+  position: absolute;
+  height: fit-content;
+  width: fit-content;
+  margin: -1.5% 0 0 31%;
+}
+
+.goalie {
+  margin: 12% 0 0 0;
+}
+
+.loading {
+  padding: 13% 0 0 0;
+  background-color: rgba(255, 255, 255, 0.349);
+  height: 73vh;
+  overflow: hidden;
+}
+
+.loading img {
+  height: 200px;
+  width: 200px;
+  filter: drop-shadow(5px 5px 10px rgb(94, 182, 249));
+}
